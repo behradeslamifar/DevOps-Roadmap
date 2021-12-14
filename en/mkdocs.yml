@@ -1,0 +1,72 @@
+site_name: DevOps Roadmap
+site_url: https://linuxmotto.ir/devops-roadmap/
+use_directory_urls: false
+site_author: Behrad Eslamifar
+copyright: LGPL
+repo_name: behradeslamifar/DevOps-Roadmap
+repo_url: https://github.com/behradeslamifar/DevOps-Roadmap
+theme:
+  name: 'material'
+  language: en
+  logo: 'img/favicon.ico'
+  favicon: 'img/favicon.ico'
+  use_directory_urls: true
+  features:
+    - header.autohide
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - toc.integrate
+  font: 
+    text: 'Roboto Slab'
+    code: 'Roboto Mono'
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - abbr
+  - attr_list
+  - def_list
+  - footnotes
+  - meta
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid-experimental
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+
+nav:
+  - Home: 'index.md'
+  - 'About Us': 'about.md'
