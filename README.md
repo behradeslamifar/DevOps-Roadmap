@@ -2,7 +2,7 @@
 This book online at [linuxmotto](https://linuxmotto.ir/devops-roadmap/).
 This Document build by
 * [MkDocs](https://www.mkdocs.org/)
-* [Materal for MkDocs](https://squidfunk.github.io/mkdocs-material/)
+* [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 
 ## Build from scratch
 Install dependencies
