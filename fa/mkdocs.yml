@@ -72,8 +72,23 @@ markdown_extensions:
 
 nav:
   - 'خانه': 'index.md'
-  - 'درباره ما': 'about.md'
   - 'شروع به خواندن کنید':
     - 'شبکه':
       - 'لیست مطالعه شبکه': 'networking/network-reading-list.md'
-#    - 'لینوکس':
+      - 'درک آدرسهای IPv4': 'networking/understanding-ipv4.md'
+      - 'درک آدرسهای IPv6': 'networking/understanding-ipv6.md'
+      - 'راهنمای استفاده از wireshark': 'networking/howto-use-wireshark.md'
+      - 'عیب یابی': 'networking/troubleshooting.md'
+    - 'لینوکس':
+      - 'لیست مطالعه لینوکس': 'linux-system-administration/linux-reading-list.md'
+    - 'مجازی سازی': 
+      - 'لیست مطالعه مجازی سازی': 'virtualization/virtualization-reading-list.md'
+    - 'سیستم‌های توزیع شده':
+      - 'لیست مطالعه سیستم‌های توزیع شده': 'distributed-systems/distributed-systems-reading-list.md'
+    - 'فرهنگ و مدیریت':
+      - 'لیست مطالعه فرهنگ و مدیریت': 'management-and-culture/management-and-culture-reading-list.md'
+    - 'برنماه نویسی و اسکریپتینگ':
+      - 'لیست مطالعه برنامه نویسی و اسکریپتینگ': 'programming/programming-reading-list.md'
+    - 'ابزارها و مهارت‌ها':
+      - 'ابزارها و مهارت ها': 'skills-and-tools/index.md'
+  - 'درباره ما': 'about.md'
